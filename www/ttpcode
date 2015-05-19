@@ -1,0 +1,21 @@
+angular.module('starter.dataservices', [])
+
+.factory('fetchJson', function($q, $timeout, $http) {
+    var MenuBuild = {
+        fetch: function() {
+
+            var deferred = $q.defer();
+
+            $timeout(function() {
+                $http.get('main-menu.json').success(function(data) {
+                    deferred.resolve(data);
+                });
+            }, 30);
+
+            return deferred.promise;
+        }
+    }
+
+    return MenuBuild;
+});
+

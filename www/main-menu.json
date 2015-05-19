@@ -1,0 +1,40 @@
+
+[ 
+{
+    "id": 0,
+    "name": "Getting There....",
+    "lastText": "Find Your Way to the Park",
+    "contentFile": "gettingthere.html",
+    "face": "https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png"
+  }, {
+    "id": 1,
+    "name": "Parking - No Parking",
+    "lastText": "Be Aware of Parking Regulations",
+    "contentFile": "nonotprk.html",
+    "face": "https://avatars3.githubusercontent.com/u/11214?v=3&s=460"
+  }, {
+    "id": 2,
+    "name": "Como Shuttle",
+    "lastText": "Relax, avoid the traffic",
+    "contentFile": "shuttle.html",
+    "face": "https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png"
+  }, {
+    "id": 3,
+    "name": "Public Transportation",
+    "lastText": "Take the Train or Bus",
+    "contentFile": "pubtransit.html",
+    "face": "https://avatars3.githubusercontent.com/u/11214?v=3&s=460"
+  }, {
+    "id": 4,
+    "name": "Bicycles and Walking",
+    "lastText": "Find an Alternative to the Car",
+    "contentFile": "bikes.html",
+    "face": "https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png"
+  }, {
+    "id": 5,
+    "name": "History of Como Park",
+    "lastText": "A Brief Story of the Park",
+    "contentFile": "history.html",
+    "face": "https://avatars3.githubusercontent.com/u/11214?v=3&s=460"
+  }
+  ]

@@ -1,0 +1,77 @@
+
+[ 
+{
+    "id": 0,
+    "name": "Como Zoo",
+    "lastText": "Find Your Way to the Park",
+    "contentFile": "gettingthere.html",
+    "face": "https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png"
+  }, {
+    "id": 1,
+    "name": "Conservatory and Gardens",
+    "lastText": "Be Aware of Parking Regulations",
+    "contentFile": "nonotprk.html",
+    "face": "https://avatars3.githubusercontent.com/u/11214?v=3&s=460"
+  }, {
+    "id": 2,
+    "name": "Golf Course",
+    "lastText": "Relax, avoid the traffic",
+    "contentFile": "shuttle.html",
+    "face": "https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png"
+  }, {
+    "id": 3,
+    "name": "Lakeside Pavilion",
+    "lastText": "Take the Train or Bus",
+    "contentFile": "pubtransit.html",
+    "face": "https://avatars3.githubusercontent.com/u/11214?v=3&s=460"
+  }, {
+    "id": 4,
+    "name": "Como Dockside",
+    "lastText": "Find an Alternative to the Car",
+    "contentFile": "bikes.html",
+    "face": "https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png"
+  }, {
+    "id": 5,
+    "name": "Como Town",
+    "lastText": "A Brief Story of the Park",
+    "contentFile": "history.html",
+    "face": "https://avatars3.githubusercontent.com/u/11214?v=3&s=460"
+  },
+    {
+    "id": 6,
+    "name": "Woodland Classroom",
+    "lastText": "Find Your Way to the Park",
+    "contentFile": "gettingthere.html",
+    "face": "https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png"
+  }, {
+    "id": 7,
+    "name": "Street Car Station",
+    "lastText": "Be Aware of Parking Regulations",
+    "contentFile": "nonotprk.html",
+    "face": "https://avatars3.githubusercontent.com/u/11214?v=3&s=460"
+  }, {
+    "id": 8,
+    "name": "Swimming Pool",
+    "lastText": "Relax, avoid the traffic",
+    "contentFile": "shuttle.html",
+    "face": "https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png"
+  }, {
+    "id": 9,
+    "name": "Bike Trails",
+    "lastText": "Take the Train or Bus",
+    "contentFile": "pubtransit.html",
+    "face": "https://avatars3.githubusercontent.com/u/11214?v=3&s=460"
+  }, {
+    "id": 10,
+    "name": "Cafesjian's Carousel",
+    "lastText": "Find an Alternative to the Car",
+    "contentFile": "bikes.html",
+    "face": "https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png"
+  }, {
+    "id": 11,
+    "name": "History of Como Park",
+    "lastText": "A Brief Story of the Park",
+    "contentFile": "history.html",
+    "face": "https://avatars3.githubusercontent.com/u/11214?v=3&s=460"
+  }
+  ]
