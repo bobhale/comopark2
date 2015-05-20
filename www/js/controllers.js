@@ -35,6 +35,46 @@ angular.module('starter.controllers', [ ])
         // error
           console.log("Error occured: " + error.code);
          $scope.contentsText = "Can't find text";
+          });            
+     
+    
+  
+})  
+    
+.controller('AttrsCtrl', function($scope, Attractions) {
+    console.log("Into the depths");
+  $scope.attractions = Attractions.all();
+  $scope.remove = function(attraction) {
+    Attractions.remove(attraction);
+  }
+})
+
+.controller('AttractionDetailCtrl', function($ionicPlatform,$scope, $sce, $stateParams, Attractions, $cordovaFile) {
+  $scope.attraction = Attractions.get($stateParams.attrId);
+  //$scope.chatTextHtml = $sce.trustAsHtml($scope.chat.lastText)
+  $scope.attractionFile = $scope.attraction.contentFile;
+  //var mainmenu = [];
+    
+  
+  
+ // $ionicPlatform.ready(function() {
+      /*$scope.$apply(function() { */
+         
+   // fetchjson.fetch().then(function(data) {
+   // mainmenu = data;
+   // console.log(data);
+//});
+   
+      
+          $cordovaFile.readAsText(cordova.file.applicationDirectory, 'www/htmlcontent/' + $scope.attractionFile)
+            .then(function (success) {
+          $scope.contents2Text = success;
+              $scope.attrTextHtml = $sce.trustAsHtml($scope.contents2Text)
+          console.log(success);
+           }, function (error) {
+        // error
+          console.log("Error occured: " + error.code);
+         $scope.contents2Text = "Can't find text";
           });   
           
           
@@ -44,7 +84,6 @@ angular.module('starter.controllers', [ ])
   
 })  
     
-
 
 .controller('AccountCtrl', function($scope) {
   $scope.settings = {

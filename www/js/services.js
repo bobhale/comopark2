@@ -70,7 +70,43 @@ angular.module('starter.services', ['ngResource'])
   
     return $resource('main-menu.json');
     
-});
+})
+
+.factory('SecondMenu', function($resource) {
+  
+    return $resource('second-menu.json');
+    
+})
+
+.factory('Attractions', function(SecondMenu) {
+    
+    var menu2Items = SecondMenu.query();
+    console.log(menu2Items);
+    var attractions = menu2Items;
+    
+  // Might use a resource here that returns a JSON array
+
+  
+
+  return {
+    all: function() {
+      return attractions;
+    },
+    remove: function(attraction) {
+      attractions.splice(attractions.indexOf(attraction), 1);
+    },
+    get: function(attrId) {
+      for (var i = 0; i < attractions.length; i++) {
+        if (attractions[i].id === parseInt(attrId)) {
+          return attractions[i];
+        }
+      }
+      return null;
+    }
+  };
+}
+);
+
          /*
  .factory('fetchJson', function($q, $timeout, $http) {
     var MenuBuild = {
