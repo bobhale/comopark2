@@ -30,10 +30,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   $stateProvider
 
   // setup an abstract state for the tabs directive
+  // set the controller we use for ng-clikc to raise Google Maps
     .state('tab', {
     url: "/tab",
     abstract: true,
-    templateUrl: "templates/tabs.html"
+    templateUrl: "templates/tabs.html",
+    controller: 'browCtrl'
   })
 
   // Each tab has its own nav history stack:
@@ -77,12 +79,21 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       }
     })
 
-  .state('tab.account', {
-    url: '/account',
+  .state('tab.brow', {
+      url: '/brow',
+      views: {
+        'tab-brow': {
+          templateUrl: 'templates/tab-brow.html',
+          controller: 'browCtrl'
+        }
+      }
+    })
+  .state('tab.mapper', {
+    url: '/map',
     views: {
-      'tab-account': {
-        templateUrl: 'templates/tab-account.html',
-        controller: 'AccountCtrl'
+      'tab-mapper': {
+        templateUrl: 'templates/tab-mapper.html',
+        controller: 'mapCtrl'
       }
     }
   });

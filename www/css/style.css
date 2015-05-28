@@ -1,4 +1,4 @@
-/* Empty. Add your own CSS if you like */
+/* Empty. Add your own CSS if you like 
 body {
     background: url("img/comolaunch-2.png");
     background-attachment: fixed;
@@ -12,4 +12,15 @@ body .view-container.tab-content {
 
 body .pane, .menu, .view, .list, .item {
     background-color: transparent;
+}
+*/
+
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.scroll {
+  height: 100%;
 }
