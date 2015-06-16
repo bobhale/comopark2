@@ -78,6 +78,34 @@ angular.module('starter.services', ['ngResource'])
     
 })
 
+.factory('MapMarkersJson', function($resource) {
+  
+    console.log("Getting map resources");
+    return $resource('Food.json');
+    
+})
+
+.factory('MapMarkers', function($filter,MapMarkersJson) {
+        var dork;
+        var code = "3";
+        MapMarkersJson.query(function(result){
+        var items= result;
+        var marks = $filter('filter')(items,code,true);
+        //console.log($scope.marks); 
+        //  var marks = MapMarkersJson.query();
+    dork = marks;
+         //console.log("servermakrs:" + JSON.stringify(dork));
+   
+        });
+        
+  return {
+    get: function() {
+      return dork;
+    }};
+})
+                       
+       
+    
 .factory('Attractions', function(SecondMenu) {
     
     var menu2Items = SecondMenu.query();

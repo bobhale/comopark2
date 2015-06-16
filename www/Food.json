@@ -1,0 +1,27 @@
+ [
+    {
+        "name": "Zooper Food",
+        "subtitle": "Burgers,Dogs,Pizza,IceCream",
+        "coordinates": "{44.982738,-93.153618}",
+        "type": "3"
+    },
+    {
+        "name": "ZobotaCafe",
+        "subtitle": "Salads, Cat, Dog",
+        "coordinates": "44.981695, -93.15225",
+        "type": "2"
+    },
+    {
+        "name": "BlackBearCrossings",
+        "subtitle": "Coffee,Sandwiches,IceCream",
+        "coordinates": "{44.982272,-93.143203}",
+        "type": "3"
+    },
+    {
+        "name": "ComoTown",
+        "subtitle": "SweetTreats",
+        "coordinates": "{44.98167,-93.15403}",
+        "type": "2"
+    }
+]
+

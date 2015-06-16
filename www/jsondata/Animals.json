@@ -1,0 +1,27 @@
+ [
+  {"name":"Polar Bears",
+  "subtitle":"Bear Exhibit",
+  "coordinates":"{44.98348,-93.15374}",
+  "type":6
+  },
+  {"name":"Primates",
+  "subtitle":"Gorillas, Orangutans, Spider Monkeys",
+  "coordinates":"{44.98200,-93.15279}",
+  "type":6
+  },
+  {"name":"Seal Island",
+  "subtitle":"Feed the Barking Seal",
+  "coordinates":"{44.98290,-93.15254}",
+  "type":6
+  },
+  {"name":"Big Cats",
+  "subtitle":"Lions and Tigers",
+  "coordinates":"{44.9835165,-93.1546202}",
+  "type":6
+  },
+  {"name":"Wolf Woods",
+  "subtitle":"Los Lobos",
+  "coordinates":"{44.98348,-93.15574}",
+  "type":6
+  }
+]

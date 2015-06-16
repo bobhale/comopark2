@@ -1,0 +1,23 @@
+ [
+  {"name":"Zooper Food",
+  "subtitle":"Burgers,Dogs,Pizza,IceCream",
+  "coordinates":"{44.982738,-93.153618}",
+  "type”:”2”
+  },
+  {"name":"Zobota Cafe",
+  "subtitle":"Salads,Sandwiches,Treats,Caribou Coffee",
+  "coordinates":"{44.981695,-93.15225}",
+  "type”:”2”
+  },
+  {"name":"Black Bear Crossings",
+  "subtitle":"Coffee, Sandwiches, IceCream",
+  "coordinates":"{44.982272,-93.143206}",
+  "type”:”2”
+  },
+  {"name":"Como Town",
+  "subtitle":"Sweet Treats",
+  "coordinates":"{44.98167,-93.15403}",
+  "type”:”2”
+  }
+  ]
+

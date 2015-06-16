@@ -87,7 +87,7 @@ angular.module('starter.controllers', [ ])
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 })
 
-.controller('mapCtrl', function($scope, $ionicLoading, $compile) { 
+.controller('mapCtrl', function($scope, $ionicLoading, $compile, MapMarkers) { 
       $scope.init = function() {
         var myLatlng = new google.maps.LatLng(44.981634,-93.152187);
         var mapOptions = {
@@ -119,7 +119,26 @@ angular.module('starter.controllers', [ ])
         $scope.map = map;
     };
     // google.maps.event.addDomListener(window, 'load', initialize);
-    $scope.centerOnMe = function() {
+    
+   $scope.markit = function() {
+        var myLatlng22 = new google.maps.LatLng(44.971634,-93.142187);
+        //var mpp = 
+         var mmm = MapMarkers.get();
+       for (i = 0; i < mmm.length; i++) {
+        console.log("Markers:" + mmm[i].name);
+       }
+        var marker2 = new google.maps.Marker({
+          position: myLatlng22,
+          map: $scope.map,
+          title: 'Uluru (Ayers Rock)'
+        }); 
+   };
+        
+      //  google.maps.event.addListener(marker, 'click', function() {
+     //     infowindow.open($scope.map,marker);
+      //  });
+    
+    /*$scope.markitddd = function() {
         if(!$scope.map) {return;}
 
         $scope.loading = $ionicLoading.show({
@@ -133,7 +152,7 @@ angular.module('starter.controllers', [ ])
         }, function(error) {
           alert('Unable to get location: ' + error.message);
         });
-    };
+    }; */
     $scope.clickTest = function() {
         alert('Example of infowindow with ng-click')
     };

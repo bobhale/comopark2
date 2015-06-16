@@ -1,0 +1,107 @@
+[
+  {"name":"Polar Bears",
+  "subtitle":"Bear Exhibit",
+  "coordinates":"{44.98348,-93.15374}",
+  "type":6
+  },
+  {"name":"Primates",
+  "subtitle":"Gorillas, Orangutans, Spider Monkeys",
+  "coordinates":"{44.98200,-93.15279}",
+  "type":6
+  },
+  {"name":"Seal Island",
+  "subtitle":"Feed the Barking Seal",
+  "coordinates":"{44.98290,-93.15254}",
+  "type":6
+  },
+  {"name":"Big Cats",
+  "subtitle":"Lions and Tigers",
+  "coordinates":"{44.9835165,-93.1546202}",
+  "type":6
+  },
+  {"name":"Wolf Woods",
+  "subtitle":"Los Lobos",
+  "coordinates":"{44.98348,-93.15574}",
+  "type":6
+  }
+  {"name":"Friedrich Schiller",
+  "subtitle":"Statue",
+  "coordinates":"{44.98109,-93.14864}",
+  "type":4
+  },
+  {"name":"Conservatory Sunken Garden",
+  "subtitle":"Sculpture, Floral Arrangements",
+  "coordinates":"{44.98242,-93.15179}",
+  "type":4
+  },
+  {"name":"Japanese Garden",
+  "subtitle":"Rocks,Sculptures,Tranquility",
+  "coordinates":"{44.98235,-93.15083}",
+  "type":4
+  },
+  {"name":"Shiffmann Fountain",
+  "subtitle":"Best Viewed at Night",
+  "coordinates":"{44.98048,-93.14492}",
+  "type":4
+  }
+  {"name":"Woodland Classroom",
+ "subtitle":"Trails and Wildlife",
+ "coordinates":"{44.9771534,-93.1519676,-93.1526938}",
+ "type":5
+ },
+ {"name":"Mini Golf",
+ "subtitle":"Putt, Putt",
+ "coordinates":"{44.9800165,-93.1552735}",
+ "type":5
+ },
+ {"name":"Picnic Shelters",
+ "subtitle":"Stay for Lunch",
+ "coordinates":"{44.9788786,-93.1514015}",
+ "type":5
+ },
+ {"name":"Golf Course",
+ "subtitle":"Full Service Clubhouse",
+ "coordinates":"{44.98426,-93.14600}",
+ "type":5
+ },
+ {"name":"Street Car Station",
+ "subtitle":"History in the Park",
+ "coordinates":"{44.97800,-93.146200}",
+ "type":5
+ }
+  {"name":"Zooper Food",
+  "subtitle":"Burgers,Dogs,Pizza,IceCream",
+  "coordinates":"{44.982738,-93.153618}",
+  "type":2
+  },
+  {"name":"Zobota Cafe",
+  "subtitle":"Salads,Sandwiches,Treats,Caribou Coffee",
+  "coordinates":"{44.981695,-93.15225}",
+  "type":2
+  },
+  {"name":"Como Dockside",
+  "subtitle":"Full Service Restaurant",
+  "coordinates":"{44.982272,-93.143206}",
+  "type":2
+  },
+  {"name":"Como Town",
+  "subtitle":"Sweet Treats",
+  "coordinates":"{44.98167,-93.15403}",
+  "type":2
+  }
+  {"name":"Global Harmony Labyrinth",
+ "subtitle":"Relax Here",
+ "coordinates":"{44.980897,-93.145663}",
+ "type":1
+ },
+ {"name":"Lake Como",
+ "subtitle":"Glacial Created Body of Water",
+ "coordinates":"{44.98069,-93.14275}",
+ "type":1
+ },
+ {"name":"Como Lakeside Pavilion",
+ "subtitle":"WaterBike, Bicycle Rentals, Food and Drink",
+ "coordinates":"{44.98226,-93.14300}",
+ "type":1
+ }
+]

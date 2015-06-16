@@ -1,0 +1,27 @@
+[
+ {"name":"Woodland Classroom",
+ "subtitle":"Trails and Wildlife",
+ "coordinates":"{44.9771534,-93.1519676,-93.1526938}",
+ "type":5
+ },
+ {"name":"Mini Golf",
+ "subtitle":"Putt, Putt",
+ "coordinates":"{44.9800165,-93.1552735}",
+ "type":5
+ },
+ {"name":"Picnic Shelters",
+ "subtitle":"Stay for Lunch",
+ "coordinates":"{44.9788786,-93.1514015}",
+ "type":5
+ },
+ {"name":"Golf Course",
+ "subtitle":"Full Service Clubhouse",
+ "coordinates":"{44.98426,-93.14600}",
+ "type":5
+ },
+ {"name":"Street Car Station",
+ "subtitle":"History in the Park",
+ "coordinates":"{44.97800,-93.146200}",
+ "type":5
+ }
+ ]
